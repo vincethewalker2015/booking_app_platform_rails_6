@@ -5,6 +5,7 @@
 }
 
 .btn-default {
+  box-shadow: 0 1px 2px rgba(#444444, 0.1);
   @apply bg-white border border-gray-400 text-gray-700;
 
   &:hover, &:focus {
@@ -12,10 +13,34 @@
   }
 }
 
+.btn-primary {
+  //@apply bg-indigo-lighter text-indigo-lightest shadow;
+
+  &:hover, &:focus {
+   // @apply bg-indigo-lighter text-indigo-dark;
+  }
+}
+
+.btn-secondary {
+ // @apply bg-grey-darker text-grey-lighter shadow;
+
+  &:hover, &:focus {
+   // @apply bg-grey-darkest text-grey-light;
+  }
+}
+
+.btn-destroy {
+ // @apply bg-white border border-red text-red;
+
+  &:hover, &:focus {
+   // @apply bg-red text-white;
+  }
+}
+
 .link {
   @apply no-underline text-gray-700;
 
   &:hover, &:focus {
-    @apply text-gray-700;
+  //  @apply text-indigo-dark;
   }
 }

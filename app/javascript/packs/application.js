@@ -5,6 +5,8 @@
 
 require("@rails/ujs").start()
 require("turbolinks").start()
+require("simple_calender").start()
+require("trix").start()
 require("@rails/activestorage").start()
 require("channels")
 

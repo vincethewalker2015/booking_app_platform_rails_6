@@ -1,0 +1,18 @@
+<nav class="bg-white mb-4 shadow rounded">
+  <ul id="nav-tab" class="tabs list-reset flex">
+    <li class="active" data-tab="calender">
+      <%= link_to "#calender", class: "tab flex items-center" do %>
+        Calender
+      <% end %>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+<div class="max-w-md my-10 m-auto p-12 lg:p-16 bg-white rounded border border-grey-light text-center shadow">
+  <%= image_tag "schedule.svg", alt: "schedule", width: 300, class: "mb-4" %>
+  <h1 class="text-indigo-darker text-2xl mb-6">It looks like you havent scheduled a session yet</h1>
+  <%= link_to "Schedule a new session", new_meeting_path, class: "btn btn-primary py-3 px-5"%>
+</div>
