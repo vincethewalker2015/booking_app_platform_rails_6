@@ -1,13 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Platform based on kickoff_tailwind
 
-Things you may want to cover:
+This is an initial build Template for a booking app:
 
-* Ruby version
+* Platform based on kickoff_tailwind
 
-* System dependencies
+* Built on Using Rails 6
 
 * Configuration
 
